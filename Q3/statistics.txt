@@ -1,0 +1,3 @@
+Number of players, Shortest game, Longest game, Average game
+2,					 32, 			 509,		 169.39
+
