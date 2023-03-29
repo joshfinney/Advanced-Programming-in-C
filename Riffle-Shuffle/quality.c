@@ -27,7 +27,7 @@ int main(void) {
 
     fprintf(output_file, "N\tAvg. Quality\n");
 
-    int *numbers = malloc(len * sizeof(int));
+    int *numbers = (int *) malloc(len * sizeof(int));
     if (numbers == NULL) {
         perror("Failed to allocate memory for numbers");
         fclose(output_file);

@@ -151,7 +151,6 @@ int beggar(int Nplayers, int *deck, int talkative) {
     Queue *pile = queue_create();
     int penalty = 0;
     int turn = 0;
-    int last_player = Nplayers;
     int penalty_player = -1;
     int current_player = 0;
     int paying_penalty = 0;
@@ -192,7 +191,7 @@ int beggar(int Nplayers, int *deck, int talkative) {
 
         // Print current turn and player
         if (talkative != 0) {
-            printf("\nTurn %d Player %d to lay %d card(s)\n", turn, current_player, penalty);
+            printf("\nTurn %d Player %d to lay %d card\n", turn, current_player, penalty);
             if (paying_penalty == 1) {
                 printf("Player %d is paying the penalty of %d cards\n\n", current_player, penalty);
             }printf("Pile: ");
