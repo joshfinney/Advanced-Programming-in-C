@@ -35,7 +35,7 @@ int main() {
     printf("\n\n");
 
     // Shuffle an array of Greek letter names
-    const char *greek[] = {"alpha", "beta", "gamma", "delta", "epsilon", "zeta", "eta", "theta", "iota", "kappa", "lambda", "mu"};
+    char *greek[] = {"alpha", "beta", "gamma", "delta", "epsilon", "zeta", "eta", "theta", "iota", "kappa", "lambda", "mu"};
     int greek_len = sizeof(greek) / sizeof(char *);
     riffle(greek, greek_len, sizeof(char *), 3);
 
