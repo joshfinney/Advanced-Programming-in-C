@@ -1,4 +1,4 @@
-# C Programming Suite
+# C Programming Project Suite
 
 This project consists of three separate tasks written in C language, each showcasing different programming techniques and features. The first task is a Pig Latin translator that converts English words into Pig Latin following a set of predefined rules. The translator function can process single words or entire sentences, replacing the original text with Pig Latin equivalents.
 
